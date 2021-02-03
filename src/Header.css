@@ -1,3 +1,16 @@
-.header_logo{
-   width: 20%;
+.header{
+    
+   display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #131921;
+    color: #fff;
+    justify-content: space-between;
 }
+
+.header_logo{
+   margin: 0 20px;
+   
+}
+

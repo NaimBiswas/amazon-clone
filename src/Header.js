@@ -41,7 +41,8 @@ const Header = () => {
             </div>
 
             <div className="header_option">
-               <span className="header_optionFourTop">
+               <span className="header_optionFour
+               Top">
                   Hello Guest
                 </span>
                <span className="header_optionFourBottom">
