@@ -3,8 +3,11 @@ import './App.css';
 function App() {
    return (
       <div className="App">
-         <h2>Hello This is Naim Biswas</h2>
-         <h3>Let's Build a Amazon Clone</h3>
+         <h2>Hello This is Naim Biswas 🐱‍🏍
+         <i>Let's Build a Amazon Clone</i>
+         </h2>
+         {/* Header  */}
+         {/* Home  */}
       </div>
    );
 }

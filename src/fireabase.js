@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
    apiKey: "AIzaSyBj9F3dv6pzatV-jiM8Jn5mwaIu8gvw8iM",
