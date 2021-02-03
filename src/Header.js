@@ -1,14 +1,19 @@
 import React from 'react'
 import './Header.css'
 import Logo from './Logo.svg'
+import SearchIcon from '@material-ui/icons/Search';
+import LocalMallIcon from '@material-ui/icons/LocalMall';
+
 const Header = () => {
    return (
       <div className='header'>
          {/* logo  */}
          <img className='header_logo' src={Logo} alt="" />
+
          {/* search  */}
          <div className="header_search">
             <input type="text" className="header_seacrhIn" />
+            <SearchIcon className='seacrch-icon'></SearchIcon>
          </div>
          {/* header nav bar  */}
          <div className="header_nav">
@@ -43,11 +48,9 @@ const Header = () => {
             <div className="header_option">
                <span className="header_optionFour
                Top">
-                  Hello Guest
-                </span>
-               <span className="header_optionFourBottom">
-                  Sing In
+                  <LocalMallIcon className='bag_icon' />
                </span>
+
             </div>
 
 

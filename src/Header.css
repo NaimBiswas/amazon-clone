@@ -8,9 +8,80 @@
     color: #fff;
     justify-content: space-between;
 }
+.header_search{
+   display: flex;
+   align-items: center;
+   flex: 1;
+   padding: 24px;
+   
+}
 
+input.header_seacrhIn {
+    padding: 7px;
+    width: 100%;
+}
 .header_logo{
    margin: 0 20px;
    
 }
+svg.MuiSvgIcon-root.seacrch-icon {
+    background: #cd9042;
+    padding: 5px;
+    color: black;
+    height: 22px;
+    margin-bottom: 2px;
+}
 
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.header_option {
+    display: flex;
+    display: inline-grid;
+    padding: 6px;
+}
+
+span.header_optionOneTop {
+    color: #f5f5f5a1;
+    font-size: 15px;
+}
+span.header_optionOneBottom {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* Rigth Side Bar Two  */
+span.header_optionTwoTop {
+    color: #f5f5f5a1;
+    font-size: 15px;
+}
+span.header_optionTWoBottom {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* right side bar three  */
+span.header_optionThreeTop {
+    color: #f5f5f5a1;
+    font-size: 15px;
+}
+span.header_optionThreeBottom {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* Right side bar four  */
+span.header_optionFourTop {
+    color: #f5f5f5a1;
+    font-size: 15px;
+}
+span.header_optionFourBottom {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+svg.MuiSvgIcon-root.bag_icon {
+    padding-right: 20px;
+    font-size: 42px;
+}
