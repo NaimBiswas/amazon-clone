@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
    return (
@@ -7,6 +8,7 @@ function App() {
          <i>Let's Build a Amazon Clone</i>
          </h2>
          {/* Header  */}
+         <Header></Header>
          {/* Home  */}
       </div>
    );
