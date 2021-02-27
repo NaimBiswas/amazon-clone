@@ -48,7 +48,7 @@ const Header = () => {
             <div className="header_option">
                <span className="header_optionFourTop">
                   <LocalMallIcon className='bag_icon' />
-                  <div className="cardOption">
+                  <div onClick={() => alert("Button Has Been Clicked")} className="cardOption">
                      15
                   </div>
                </span>

@@ -84,6 +84,7 @@ span.header_optionThreeBottom {
 /* Right side bar four  */
 span.header_optionFourTop {
     color: #fff;
+   transition: 1s;
   
     position: relative;
    
@@ -112,4 +113,17 @@ svg.MuiSvgIcon-root.bag_icon {
     padding-bottom: 2px;
     padding-top: 2px;
     font-weight: 300;
+    cursor: pointer;
+   transition: 1s;
+    
+}
+.cardOption:hover{
+   background: #f7d9d9;
+   color: #131921;
+   transition: 700ms;
+
+}
+.header_optionFourTop:hover{
+   color: #ffb557;
+   transition: 1s;
 }
