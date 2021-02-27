@@ -17,8 +17,9 @@
 }
 
 input.header_seacrhIn {
-    padding: 8px;
+      padding: 8px;
     width: 100%;
+    border-radius: 5px 0px 0px 5px;
 }
 .header_logo{
     padding-left: 20px;
@@ -28,12 +29,19 @@ input.header_seacrhIn {
    
 }
 svg.MuiSvgIcon-root.seacrch-icon {
-    background: #cd9042;
-    padding: 5px;
+      background: #cd9042;
+    padding: 7px;
     color: black;
-    height: 23px;
+    height: 38px;
+    width: 38px;
+    border-radius: unset;
+    cursor: pointer;
 }
-
+svg.MuiSvgIcon-root.seacrch-icon:hover{
+   opacity: .8;
+   transition: 400ms;
+   color: black;
+}
 .header_nav {
     display: flex;
     align-items: center;

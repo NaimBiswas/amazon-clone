@@ -12,8 +12,8 @@ const Header = () => {
 
          {/* search  */}
          <div className="header_search">
-            <input type="text" className="header_seacrhIn" />
-            <SearchIcon className='seacrch-icon'></SearchIcon>
+            <input type="text" className="header_seacrhIn form-control" />
+            <SearchIcon className='seacrch-icon btn '></SearchIcon>
          </div>
          {/* header nav bar  */}
          <div className="header_nav">
