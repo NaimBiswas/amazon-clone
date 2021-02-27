@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Logo from './Logo.svg'
+import Logo from '../../Logo.svg'
 import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 
