@@ -17,19 +17,21 @@
 }
 
 input.header_seacrhIn {
-    padding: 7px;
+    padding: 8px;
     width: 100%;
 }
 .header_logo{
-   margin: 0 20px;
+    padding-left: 20px;
+    height: 120px;
+    align-items: center;
+    margin-bottom: -15px;
    
 }
 svg.MuiSvgIcon-root.seacrch-icon {
     background: #cd9042;
     padding: 5px;
     color: black;
-    height: 22px;
-    margin-bottom: 2px;
+    height: 23px;
 }
 
 .header_nav {
@@ -56,7 +58,7 @@ span.header_optionTwoTop {
     color: #f5f5f5a1;
     font-size: 15px;
 }
-span.header_optionTWoBottom {
+span.header_optionTwoBottom {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
