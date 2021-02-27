@@ -46,10 +46,13 @@ const Header = () => {
             </div>
 
             <div className="header_option">
-               <span className="header_optionFour
-               Top">
+               <span className="header_optionFourTop">
                   <LocalMallIcon className='bag_icon' />
+                  <div className="cardOption">
+                     15
+                  </div>
                </span>
+
 
             </div>
 
