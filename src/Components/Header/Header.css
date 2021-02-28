@@ -19,7 +19,7 @@
 input.header_seacrhIn {
       padding: 8px;
     width: 100%;
-    border-radius: 2px 0px 0px 2px;
+    border-radius: 3px 0px 0px 3px;
 }
 .header_logo{
     padding-left: 20px;
@@ -34,7 +34,7 @@ svg.MuiSvgIcon-root.seacrch-icon {
     color: black;
     height: 38px;
     width: 38px;
-    border-radius: unset;
+    border-radius: 0px 3px 3px 0px;
     cursor: pointer;
 }
 svg.MuiSvgIcon-root.seacrch-icon:hover{
