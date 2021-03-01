@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Fragment } from 'react'
+import { Button, Card } from 'react-bootstrap'
 import Product from './Product/Product'
 import Slider from './Slider/Slider'
 
@@ -9,14 +10,17 @@ const Home = () => {
       <Fragment>
          {/* HOme SLider serction  */}
          <Slider />
-         <section>
+         <section className=" ProductCard">
             <div className="container-fluid">
                <div className="home-row-one row ">
-                  <div className="col-lg-6">
+                  <div className="col-lg-4">
                      <Product />
 
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-4">
+                     <Product />
+                  </div>
+                  <div className="col-lg-4">
                      <Product />
                   </div>
                </div>

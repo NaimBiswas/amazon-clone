@@ -1,5 +1,9 @@
 .carousel-indicators{
    display: none;
+   
+}
+.carousel-item{
+   position: relative;
 }
 .carousel-item > img{
    mask-image: linear-gradient(
@@ -8,4 +12,9 @@
    -webkit-mask-image: linear-gradient(
 178deg
 , rgba(0,0,0,1), rgba(0,0,0,.2));
+}
+.ProductCard{
+       position: absolute;
+       top: 70%;
+       margin: 0 auto;
 }
