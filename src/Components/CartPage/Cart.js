@@ -21,11 +21,11 @@ const Cart = () => {
                            <div className="basket">
                               <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
                               <hr />
-                              <CartedProduct />
+                              <CartedProduct title={'Honor v40 '} price={500} ratting={3} />
 
-                              <CartedProduct />
-                              <CartedProduct />
-                              <CartedProduct />
+                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
+                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
+                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
                            </div>
                         </div>
                      </div>

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import './Cart.css'
+import NullRatting from '../Home/Product/NullRatting'
 
-const CartedProduct = () => {
+const CartedProduct = ({ title, price, ratting }) => {
    return (
       <>
          <div className="row CardHover" >
@@ -14,9 +15,14 @@ const CartedProduct = () => {
                </div>
             </div>
             <div className="col-lg-7">
-               <h2>Title</h2>
-               <p>Rating</p>
-               <p>Price</p>
+               <h2>{title}</h2>
+               <p>
+                  {Array(ratting).fill().map((_, i) => (<span>⭐</span>))}
+                  <span>
+                     <NullRatting ratting={ratting}></NullRatting>
+                  </span>
+               </p>
+               <p className='h5 bold mb-4'>$ {price} </p>
                <Button variant="warning">Remove from Basket</Button>
 
             </div>
