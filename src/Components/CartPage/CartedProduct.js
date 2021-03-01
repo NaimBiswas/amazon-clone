@@ -5,7 +5,7 @@ import './Cart.css'
 const CartedProduct = () => {
    return (
       <>
-         <div className="row " >
+         <div className="row CardHover" >
             <div className="col-lg-5 mb-5">
                <div className="cartImage">
                   <img
