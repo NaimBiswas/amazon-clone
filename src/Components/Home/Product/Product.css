@@ -10,6 +10,11 @@
 }
 .card{
        box-shadow: 0px 1px 6px 0px #0000002e!important;
+       transition-duration: 400ms;
+}
+.card:hover{
+       transform: scale(1.05)!important;
+       transition-duration: 400ms;
 }
 .ProductButton:hover{
    opacity: .8;
