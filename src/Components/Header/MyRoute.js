@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { lazy } from 'react'
+import { Suspense } from 'react'
 import { Route } from 'react-router-dom'
-import Cart from '../CartPage/Cart'
+
 import Home from '../Home/Home'
 import Header from './Header'
+const Cart = lazy(() => import('../CartPage/Cart'))
 
 const MyRoute = () => {
    return (
@@ -14,7 +16,11 @@ const MyRoute = () => {
          <Route ></Route>
          <Route path='/cart' >
             <Header></Header>
-            <Cart></Cart>
+            <Suspense fallback={<div><h3 className='text-info'
+               style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
+            >Loading...</h3></div>}>
+               <Cart></Cart>
+            </Suspense>
          </Route>
       </div>
    )
