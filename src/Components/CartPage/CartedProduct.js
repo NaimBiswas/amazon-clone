@@ -10,7 +10,7 @@ const CartedProduct = () => {
                <div className="cartImage">
                   <img
                      className="img-fluid "
-                     src="https://m.media-amazon.com/images/I/61id45RQjoL._AC_UY218_.jpg" alt="" />
+                     src="https://www.mobiledokan.co/wp-content/uploads/2020/09/Honor-V40-5G-Titanium-Silver.jpg" alt="" />
                </div>
             </div>
             <div className="col-lg-7">
