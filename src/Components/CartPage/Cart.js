@@ -4,18 +4,26 @@ const Cart = () => {
    return (
       <>
          {/* Creackout section   */}
-         <section>
+         <section className="bg-gray">
             <div className="container-fluid">
                <div className="container">
                   <div className="row">
-                     <div className="col-lg-6">
-                        <div className=" checkoutLeft">
-
+                     <div className="col-lg-7">
+                        <div className=" checkoutLeft pt-5">
+                           <div className="checkOut-add ">
+                              <img style={{ height: '150px' }} className="img-fluid w-100 " src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
+                           </div>
+                           <div className="basket">
+                              <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
+                              <hr />
+                           </div>
                         </div>
                      </div>
-                     <div className="col-lg-6">
-                        <div className=" checkoutRight" >
-
+                     <div className="col-lg-5">
+                        <div className=" checkoutRight pt-5" >
+                           <div className="checkOut-add ">
+                              <img className="img-fluid w-100" src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
+                           </div>
                         </div>
                      </div>
                   </div>

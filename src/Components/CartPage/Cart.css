@@ -3,3 +3,11 @@
     min-width:1330px;
     width: 100%;
 }
+section{
+   background: #f5f5f5;;
+}
+.basketHeader{
+   font-size: 40px;
+    font-weight: 700;
+    letter-spacing: .7px;
+}
