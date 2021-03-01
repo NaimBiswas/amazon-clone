@@ -4,12 +4,13 @@ const NullRatting = ({ ratting }) => {
    return (
       <>
          {
-            ratting == 1 ? <>
-               <img src={Rate} alt="" />
-               <img className='ml-1' className='ml-1' src={Rate} alt="" />
-               <img className='ml-1' className='ml-1' src={Rate} alt="" />
-               <img className='ml-1' className='ml-1' src={Rate} alt="" />
-            </>
+            ratting == 1 ?
+               <>
+                  <img src={Rate} alt="" />
+                  <img className='ml-1' src={Rate} alt="" />
+                  <img className='ml-1' src={Rate} alt="" />
+                  <img className='ml-1' src={Rate} alt="" />
+               </>
                :
                ''
          } {
