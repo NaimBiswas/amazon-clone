@@ -45,9 +45,9 @@ const Home = () => {
 
 
 
-               <div className="home-row-three row">
-                  <div className="col-lg-12">
-                     <Product Link={"https://i.insider.com/5e0f8a72855cc27e842d2852?width=1200&format=jpeg"} />
+               <div className="home-row-three row mt-5">
+                  <div className="col-lg-12 BigProduct">
+                     <Product Link={"https://www.reviewgeek.com/p/uploads/2020/06/ea40ecd5.jpg"} />
                   </div>
                </div>
             </div>

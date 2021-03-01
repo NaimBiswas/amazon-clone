@@ -5,7 +5,7 @@ const Product = ({ Link }) => {
    return (
       <>
          <Card style={{ margin: '' }} className="" >
-            <Card.Img style={{ width: '100%', }} variant="top" src={Link} />
+            <Card.Img style={{ width: '100%', }} variant="top" src={Link} className="img-fluid max-width: 100%" />
             <Card.Body>
                <Card.Title>Product Name</Card.Title>
                <p>$100.0 <span>⭐⭐⭐⭐⭐</span></p>

@@ -1,3 +1,7 @@
 section{
-      background-image: linear-gradient(to bottom, transparent, #f1f1f1 100%);
+      background-image: linear-gradient(to bottom, transparent, #f5f5f5 100%);
+}
+.BigProduct img{
+   height: 450px!important;
+   
 }

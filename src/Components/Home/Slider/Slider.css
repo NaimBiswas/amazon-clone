@@ -13,8 +13,6 @@
 178deg
 , rgba(0,0,0,1), rgba(0,0,0,.2));
 }
-.ProductCard{
-       position: absolute;
-       top: 70%;
-       margin: 0 auto;
+.carousel-control-next-icon, .carousel-control-prev-icon{
+   display: none;
 }
