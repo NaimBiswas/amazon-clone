@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
-
+import './Product.css'
 const Product = () => {
    return (
       <>
@@ -20,7 +20,7 @@ const Product = () => {
                   <hr />
 
                </Card.Text>
-               <Button variant="primary">Add to Busket</Button>
+               <Button className='ProductButton' variant="">Add to Busket</Button>
             </Card.Body>
          </Card>
       </>
