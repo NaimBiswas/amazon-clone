@@ -20,21 +20,21 @@ const Home = () => {
                         price={100.00}
                         ratting={5}
 
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://images-na.ssl-images-amazon.com/images/I/51I3UjD-Q1L.jpg"} />
                   </div>
                   <div className="col-lg-4">
                      <Product
                         title="This is our product title"
                         price={100.00}
                         ratting={'1'
-                        } Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        } Link={"https://images-na.ssl-images-amazon.com/images/I/51IIMW6-TbL.jpg"} />
                   </div>
                   <div className="col-lg-4">
                      <Product
                         title="This is our product title"
                         price={200.43}
                         ratting={4}
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/91ubktnbNVL._AC_UL320_.jpg"} />
                   </div>
                </div>
 

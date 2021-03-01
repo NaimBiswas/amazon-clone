@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import './Cart.css'
 import CartedProduct from './CartedProduct'
+import SubTotal from './SubTotal'
 
 
 const Cart = () => {
@@ -33,11 +34,7 @@ const Cart = () => {
                            <div className="checkOut-add ">
                               <img className="img-fluid w-100" src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
                            </div>
-                           <div className="Card">
-                              <h3>Subtotal (5 item) : $ 04043</h3>
-                              <input type="checkbox" /><span className='ml-2'>This order contain a gif</span><br />
-                              <Button className='d-block w-100 mt-3 ' variant='warning'>Proceed to Checkout</Button>
-                           </div>
+                           <SubTotal></SubTotal>
                         </div>
                      </div>
                   </div>

@@ -10,7 +10,7 @@ section{
    transition: 400ms;
 }
 .CardHover:hover{
-   transform: scale(1.05);
+   transform: scale(1.03);
    transition: 400ms;
 }
 .basketHeader{
