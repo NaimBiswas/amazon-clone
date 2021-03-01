@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import { Button, Card } from 'react-bootstrap'
 import Product from './Product/Product'
 import Slider from './Slider/Slider'
+import './Home.css'
 
 const Home = () => {
    return (
