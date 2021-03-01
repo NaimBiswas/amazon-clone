@@ -15,30 +15,39 @@ const Home = () => {
             <div className="container-fluid">
                <div className="home-row-one row ">
                   <div className="col-lg-4">
-                     <Product />
-
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
                   <div className="col-lg-4">
-                     <Product />
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
                   <div className="col-lg-4">
-                     <Product />
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
                </div>
-               <div className="home-row-tow">
-                  <div className="col-lg-4">
 
+
+
+               <div className="home-row-tow row mt-5 mb-2">
+                  <div className="col-lg-3">
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
-                  <div className="col-lg-4">
-
+                  <div className="col-lg-3">
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
-                  <div className="col-lg-4">
-
+                  <div className="col-lg-3">
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
                </div>
-               <div className="home-row-three">
+
+
+
+
+               <div className="home-row-three row">
                   <div className="col-lg-12">
-
+                     <Product Link={"https://i.insider.com/5e0f8a72855cc27e842d2852?width=1200&format=jpeg"} />
                   </div>
                </div>
             </div>
