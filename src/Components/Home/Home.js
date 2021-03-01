@@ -16,25 +16,25 @@ const Home = () => {
                <div className="home-row-one ProductCard row ">
                   <div className="col-lg-4">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
+                        title="Acer SB220Q bi 21.5 Inches Full HD (1920 x 1080) IPS Ultra-Thin Zero Frame Monitor (HDMI & VGA Port), Black"
+                        price={93.99}
                         ratting={5}
 
                         Link={"https://images-na.ssl-images-amazon.com/images/I/51I3UjD-Q1L.jpg"} />
                   </div>
                   <div className="col-lg-4">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
-                        ratting={'1'
-                        } Link={"https://images-na.ssl-images-amazon.com/images/I/51IIMW6-TbL.jpg"} />
+                        title='SAMSUNG LC24F396FHNXZA 23.5" FHD Curved LED-Lit FreeSync Monito'
+                        price={250}
+                        ratting={'1'}
+                        Link={"https://images-na.ssl-images-amazon.com/images/I/51IIMW6-TbL.jpg"} />
                   </div>
                   <div className="col-lg-4">
                      <Product
-                        title="This is our product title"
+                        title="Sceptre 35 Inch Curved UltraWide 21: 9 LED Creative Monitor QHD 3440x1440 Frameless AMD Freesync HDMI"
                         price={200.43}
                         ratting={4}
-                        Link={"https://m.media-amazon.com/images/I/91ubktnbNVL._AC_UL320_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/81bkp5rYYuL._AC_UL320_.jpg"} />
                   </div>
                </div>
 
@@ -43,31 +43,31 @@ const Home = () => {
                <div className="home-row-tow row mt-5 mb-2">
                   <div className="col-lg-3">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
+                        title="Sceptre 35 Inch Curved UltraWide 21: 9 LED Creative Monitor QHD 3440x1440 Frameless AMD Freesync HDMI"
+                        price={200}
                         ratting={2}
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/914W+OtJQ-L._AC_UL320_.jpg"} />
                   </div>
                   <div className="col-lg-3">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
+                        title="LG 32QN600-B 32-Inch QHD (2560 x 1440) IPS Monitor with HDR 10, AMD FreeSync with Dual HDMI Inputs, Black"
+                        price={400}
                         ratting={1}
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/81-lVaD1rAL._AC_UL320_.jpg"} />
                   </div>
                   <div className="col-lg-3">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
+                        title="LG 27GN950-B 27 Inch UHD (3840 x 2160) Nano IPS Display Ultragear Gaming Monitor with 1ms Response Time 144Hz"
+                        price={475}
                         ratting={1}
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/81fdHiIG1dL._AC_UL320_.jpg"} />
                   </div>
                   <div className="col-lg-3">
                      <Product
-                        title="This is our product title"
-                        price={100.00}
+                        title="LG 27GL850-B 27 Inch Ultragear QHD Nano IPS 1ms NVIDIA G-Sync Compatible Gaming Monitor, Black"
+                        price={500}
                         ratting={3}
-                        Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
+                        Link={"https://m.media-amazon.com/images/I/81ZYbkU1uKL._AC_UL320_.jpg"} />
                   </div>
                </div>
 
@@ -78,7 +78,7 @@ const Home = () => {
                   <div className="col-lg-12 BigProduct">
                      <Product
                         title="This is our product title"
-                        price={100.00}
+                        price={1200}
                         ratting={3}
                         Link={"https://www.reviewgeek.com/p/uploads/2020/06/ea40ecd5.jpg"} />
                   </div>
