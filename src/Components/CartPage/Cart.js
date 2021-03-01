@@ -20,16 +20,11 @@ const Cart = () => {
                            <div className="basket">
                               <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
                               <hr />
-
-
                               <CartedProduct />
 
                               <CartedProduct />
                               <CartedProduct />
                               <CartedProduct />
-
-
-
                            </div>
                         </div>
                      </div>
@@ -37,6 +32,11 @@ const Cart = () => {
                         <div className=" checkoutRight pt-5" >
                            <div className="checkOut-add ">
                               <img className="img-fluid w-100" src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
+                           </div>
+                           <div className="Card">
+                              <h3>Subtotal (5 item) : $ 04043</h3>
+                              <input type="checkbox" /><span className='ml-2'>This order contain a gif</span><br />
+                              <Button className='d-block w-100 mt-3 ' variant='warning'>Proceed to Checkout</Button>
                            </div>
                         </div>
                      </div>
