@@ -4,15 +4,15 @@ import NullRatting from './NullRatting'
 import './Product.css'
 import Rate from './Rate.svg'
 
-const Product = ({ Link, ratting }) => {
+const Product = ({ Link, ratting, title, price, }) => {
 
    return (
       <>
          <Card style={{ margin: '' }} className="" >
             <Card.Img style={{ width: '100%', }} variant="top" src={Link} className="img-fluid max-width: 100%" />
             <Card.Body>
-               <Card.Title>Product Name</Card.Title>
-               <p>$100.0
+               <Card.Title>{title}</Card.Title>
+               <p><span className="h5 price">${price}</span>
                   <span className='ml-1'>
                      {
                         Array(ratting).fill().map((_, i) => (
@@ -24,16 +24,10 @@ const Product = ({ Link, ratting }) => {
                      </span>
                   </span>
                </p>
-               <Card.Text>
-                  <hr />
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+               <Card.Text className='ProductDiscription'>
                   <hr />
 
+                  {/* Discription are if anyone need  */}
                </Card.Text>
                <Button className='ProductButton' variant="">Add to Cart</Button>
             </Card.Body>

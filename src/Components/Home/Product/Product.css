@@ -14,3 +14,11 @@
 .ProductCard{
          margin-top: -25%;
 }
+.price{
+   font-weight: 600;
+   margin-right: 5px;
+}
+.ProductDiscription{
+font-size: 18px;
+font-weight: 500;
+}
