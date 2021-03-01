@@ -15,20 +15,21 @@ const Cart = () => {
                      <div className="col-lg-7">
                         <div className=" checkoutLeft pt-5">
                            <div className="checkOut-add ">
-                              <img style={{ height: '150px' }} className="img-fluid w-100 " src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
+                              <img style={{ height: '150px', width: '100%' }} className="img-fluid  " src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
                            </div>
                            <div className="basket">
                               <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
                               <hr />
-                              <div className="row">
-
-                                 <CartedProduct />
-                                 <CartedProduct />
-                                 <CartedProduct />
-                                 <CartedProduct />
 
 
-                              </div>
+                              <CartedProduct />
+
+                              <CartedProduct />
+                              <CartedProduct />
+                              <CartedProduct />
+
+
+
                            </div>
                         </div>
                      </div>

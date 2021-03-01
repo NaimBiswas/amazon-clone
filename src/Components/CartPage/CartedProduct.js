@@ -5,21 +5,22 @@ import './Cart.css'
 const CartedProduct = () => {
    return (
       <>
-
-         <div className="col-lg-5 mb-5">
-            <div className="cartImage">
-               <img
-                  style={{ height: '400px' }}
-                  className="img-fluid w-100"
-                  src="https://m.media-amazon.com/images/I/61id45RQjoL._AC_UY218_.jpg" alt="" />
+         <div className="row " >
+            <div className="col-lg-5 mb-5">
+               <div className="cartImage">
+                  <img
+                     className="img-fluid "
+                     src="https://m.media-amazon.com/images/I/61id45RQjoL._AC_UY218_.jpg" alt="" />
+               </div>
             </div>
-         </div>
-         <div className="col-lg-7">
-            <h2>Title</h2>
-            <p>Rating</p>
-            <p>Price</p>
-            <Button variant="warning">Remove from Basket</Button>
-            <hr />
+            <div className="col-lg-7">
+               <h2>Title</h2>
+               <p>Rating</p>
+               <p>Price</p>
+               <Button variant="warning">Remove from Basket</Button>
+
+            </div>
+
          </div>
       </>
    )
