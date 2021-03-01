@@ -1,5 +1,7 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header/Header';
+import MyRoute from './Components/Header/MyRoute';
 import Home from './Components/Home/Home';
 
 function App() {
@@ -9,9 +11,10 @@ function App() {
          <i>Let's Build a Amazon Clone</i>
          </h2> */}
          {/* Header  */}
-         <Header></Header>
-         {/* Home  */}
-         <Home></Home>
+         <BrowserRouter>
+
+            <MyRoute></MyRoute>
+         </BrowserRouter>
       </div>
    );
 }

@@ -3,6 +3,7 @@ import './Header.css'
 import Logo from '../../Logo.svg'
 import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
    return (
@@ -48,9 +49,11 @@ const Header = () => {
             <div className="header_option">
                <span className="header_optionFourTop">
                   <LocalMallIcon className='bag_icon' />
-                  <div onClick={() => alert("Button Has Been Clicked")} className="cardOption">
-                     15
+                  <Link to='/cart'>
+                     <div className="cardOption">
+                        15
                   </div>
+                  </Link>
                </span>
 
 
