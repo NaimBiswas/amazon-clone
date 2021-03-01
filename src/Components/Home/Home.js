@@ -11,9 +11,9 @@ const Home = () => {
       <Fragment>
          {/* HOme SLider serction  */}
          <Slider />
-         <section className=" ProductCard">
+         <section className=" ">
             <div className="container-fluid">
-               <div className="home-row-one row ">
+               <div className="home-row-one ProductCard row ">
                   <div className="col-lg-4">
                      <Product Link={"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg"} />
                   </div>
