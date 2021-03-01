@@ -1,7 +1,7 @@
 section{
       background-image: linear-gradient(to bottom, transparent, #f5f5f5 100%);
 }
-.BigProduct img{
+.BigProduct > .card > img{
    height: 450px!important;
    
 }
