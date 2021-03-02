@@ -15,7 +15,7 @@ const CartedProduct = ({ title, price, ratting, Link, key }) => {
                </div>
             </div>
             <div className="col-lg-7">
-               <h2>{title}</h2>
+               <h2 className="ProductTitle">{title}</h2>
                <p>
                   {Array(ratting).fill().map((_, i) => (<span>⭐</span>))}
                   <span>
