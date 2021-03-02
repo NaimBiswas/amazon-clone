@@ -20,7 +20,7 @@ const Home = () => {
                         price={93.99}
                         ratting={5}
 
-                        Link={"https://images-na.ssl-images-amazon.com/images/I/51I3UjD-Q1L.jpg"} />
+                        Link={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfE5GW9inTg0QtrF85d_frHWzUHb6gbb5y_dEtGQ5SFYSlcwSiL783YnYKWYGtbZdpQ1U&usqp=CAU&ec=45780877"} />
                   </div>
                   <div className="col-lg-4">
                      <Product

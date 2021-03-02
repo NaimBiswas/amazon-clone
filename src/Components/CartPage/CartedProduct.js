@@ -22,9 +22,8 @@ const CartedProduct = ({ title, price, ratting }) => {
                      <NullRatting ratting={ratting}></NullRatting>
                   </span>
                </p>
-               <p className='h5 bold mb-4'>$ {price} </p>
+               <p className='h5 bold mb-4'>${price} </p>
                <Button variant="warning">Remove from Basket</Button>
-
             </div>
 
          </div>

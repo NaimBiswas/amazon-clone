@@ -11,6 +11,11 @@
 .card{
        box-shadow: 0px 1px 6px 0px #0000002e!important;
        transition-duration: 400ms;
+   height: auto;
+}
+.card >img{
+   height: 230px;
+   width: auto;
 }
 .card:hover{
        transform: scale(1.05)!important;
