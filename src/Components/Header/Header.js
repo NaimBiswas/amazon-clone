@@ -4,8 +4,10 @@ import Logo from '../../Logo.svg'
 import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import { Link } from 'react-router-dom';
+import { useStateValue } from '../../StateProvider'
 
 const Header = () => {
+   const [{ basket },] = useStateValue()
    return (
       <div className='header'>
          {/* logo  */}
@@ -53,8 +55,8 @@ const Header = () => {
                   <LocalMallIcon className='bag_icon' />
                   <Link to='/cart'>
                      <div className="cardOption">
-                        15
-                  </div>
+                        {basket.length}
+                     </div>
                   </Link>
                </span>
 
