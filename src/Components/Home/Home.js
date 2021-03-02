@@ -27,7 +27,7 @@ const Home = () => {
                         title='SAMSUNG LC24F396FHNXZA 23.5" FHD Curved LED-Lit FreeSync Monito'
                         price={250}
                         ratting={'1'}
-                        Link={"https://images-na.ssl-images-amazon.com/images/I/51IIMW6-TbL.jpg"} />
+                        Link={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvYE1NNww47WuthEMKqJYMa1uVei6-QZzMw&usqp=CAU"} />
                   </div>
                   <div className="col-lg-4">
                      <Product
