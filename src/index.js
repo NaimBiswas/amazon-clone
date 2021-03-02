@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { StateProvider } from './StateProvider';
+import reducer, { initialState } from './reducer';
 const App = lazy(() => import('./App'))
 
 
@@ -15,7 +17,9 @@ ReactDOM.render(
          >
             <h2 className='text-info'>Loading...</h2>
          </div>}>
-         <App />
+         <StateProvider initialState={initialState} reducer={reducer}>
+            <App />
+         </StateProvider>
       </Suspense>
 
 

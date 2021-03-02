@@ -1,11 +1,24 @@
 import React from 'react'
 import { Button, Card, CardDeck } from 'react-bootstrap'
+import { useStateValue } from '../../../StateProvider'
 import NullRatting from './NullRatting'
 import './Product.css'
 import Rate from './Rate.svg'
 
-const Product = ({ Link, ratting, title, price, }) => {
-
+const Product = ({ id, Link, ratting, title, price, }) => {
+   const [sate, dispatch] = useStateValue()
+   const addToBasket = () => {
+      dispatch({
+         type: "ADD_TO_BASKET",
+         item: {
+            id: id,
+            title: title,
+            price: price,
+            ratting: ratting,
+            image: Link,
+         }
+      })
+   }
    return (
       <>
          <Card style={{ margin: '' }} className="" >
@@ -29,7 +42,7 @@ const Product = ({ Link, ratting, title, price, }) => {
 
                   {/* Discription are if anyone need  */}
                </Card.Text>
-               <Button className='ProductButton' variant="">Add to Cart</Button>
+               <Button onClick={addToBasket} className='ProductButton' variant="">Add to Cart</Button>
             </Card.Body >
          </Card >
 
