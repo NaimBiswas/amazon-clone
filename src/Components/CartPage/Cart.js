@@ -3,9 +3,11 @@ import { Button } from 'react-bootstrap'
 import './Cart.css'
 import CartedProduct from './CartedProduct'
 import SubTotal from './SubTotal'
-
+import { useStateValue } from '../../StateProvider'
 
 const Cart = () => {
+   const [{ basket }, action] = useStateValue()
+
    return (
       <>
          {/* Creackout section   */}
@@ -21,11 +23,14 @@ const Cart = () => {
                            <div className="basket">
                               <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
                               <hr />
-                              <CartedProduct title={'Honor v40 '} price={500} ratting={3} />
 
-                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
-                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
-                              <CartedProduct title={'Honor v40 '} price={500} ratting={4} />
+                              {
+                                 basket?.map((ite) => (
+
+                                    <CartedProduct Link={ite.image} title={ite.title} price={ite.price} ratting={ite.ratting} />
+                                 ))
+                              }
+
                            </div>
                         </div>
                      </div>
