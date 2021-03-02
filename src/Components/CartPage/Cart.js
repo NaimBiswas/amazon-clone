@@ -11,7 +11,7 @@ const Cart = () => {
    return (
       <>
          {/* Creackout section   */}
-         <section className="bg-gray">
+         <section style={{ minHeight: '100vh' }} className="bg-gray">
             <div className="container-fluid">
                <div className="container">
                   <div className="row">
@@ -25,10 +25,17 @@ const Cart = () => {
                               <hr />
 
                               {
-                                 basket?.map((ite) => (
+                                 basket?.map((ite, index) => (
 
-                                    <CartedProduct Link={ite.image} title={ite.title} price={ite.price} ratting={ite.ratting} />
+                                    <CartedProduct key={index} Link={ite.image} title={ite.title} price={ite.price} ratting={ite.ratting} />
                                  ))
+                              }
+                              {
+                                 basket.length == 0 ?
+
+                                    <h2
+                                       style={{ display: 'flex', flexDirection: 'column', minHeight: '40vh', justifyContent: 'center' }}
+                                       className='text-danger bold '>😒! No Product Found In Your Basket</h2> : ''
                               }
 
                            </div>

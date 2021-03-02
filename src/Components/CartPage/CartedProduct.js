@@ -3,10 +3,10 @@ import { Button } from 'react-bootstrap'
 import './Cart.css'
 import NullRatting from '../Home/Product/NullRatting'
 
-const CartedProduct = ({ title, price, ratting, Link }) => {
+const CartedProduct = ({ title, price, ratting, Link, key }) => {
    return (
       <>
-         <div className="row CardHover mb-5" >
+         <div key={key} className="row CardHover mb-5" >
             <div className="col-lg-5 mb-5">
                <div className="cartImage">
                   <img
