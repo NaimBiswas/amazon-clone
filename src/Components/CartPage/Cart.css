@@ -27,3 +27,6 @@ section{
 .ProductTitle{
    font-size: 22px;
 }
+.checkoutRight > .checkOut-add{
+   min-height: 44v;
+}
