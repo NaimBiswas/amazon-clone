@@ -2,8 +2,18 @@ import React from 'react'
 import { Button } from 'react-bootstrap'
 import './Cart.css'
 import NullRatting from '../Home/Product/NullRatting'
+import { useStateValue } from '../../StateProvider'
 
-const CartedProduct = ({ title, price, ratting, Link, key }) => {
+const CartedProduct = ({ id, title, price, ratting, Link, key }) => {
+   const [{ }, dispatch] = useStateValue()
+
+   const RemoveFromBasket = () => {
+      dispatch({
+         type: "REMOVE_FROM_BASKET",
+         id: id,
+      })
+
+   }
    return (
       <>
          <div key={key} className="row CardHover mb-5" >
@@ -23,7 +33,7 @@ const CartedProduct = ({ title, price, ratting, Link, key }) => {
                   </span>
                </p>
                <p className='h5 bold mb-4'>${price} </p>
-               <Button variant="warning">Remove from Basket</Button>
+               <Button onClick={RemoveFromBasket} variant="warning">Remove from Basket</Button>
             </div>
 
          </div>

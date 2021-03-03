@@ -27,7 +27,7 @@ const Cart = () => {
                               {
                                  basket?.map((ite, index) => (
 
-                                    <CartedProduct key={index} Link={ite.image} title={ite.title} price={ite.price} ratting={ite.ratting} />
+                                    <CartedProduct id={ite.id} key={index} Link={ite.image} title={ite.title} price={ite.price} ratting={ite.ratting} />
                                  ))
                               }
                               {
