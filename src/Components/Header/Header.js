@@ -28,7 +28,7 @@ const Header = () => {
                   Hello Guest
                 </span>
                <span className="header_optionOneBottom">
-                  Sing In
+                  <Link to='/log-in' className='text-white' >  Sing In</Link>
                </span>
             </div>
 
