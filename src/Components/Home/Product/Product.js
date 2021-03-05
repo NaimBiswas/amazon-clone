@@ -18,6 +18,7 @@ const Product = ({ id, Link, ratting, title, price, }) => {
             image: Link,
          }
       })
+      return <h3>Product Added Success</h3>
    }
    return (
       <>

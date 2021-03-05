@@ -83,7 +83,23 @@ const Home = () => {
 
 
                <div className="home-row-three row mt-5">
-                  <div className="col-lg-12 BigProduct">
+                  <div className="col-lg-4  ">
+                     <Product
+                        id='12'
+                        title="This is our product title"
+                        price={1200}
+                        ratting={3}
+                        Link={"https://www.reviewgeek.com/p/uploads/2020/06/ea40ecd5.jpg"} />
+                  </div>
+                  <div className="col-lg-4 ">
+                     <Product
+                        id='12'
+                        title="This is our product title"
+                        price={1200}
+                        ratting={3}
+                        Link={"https://www.reviewgeek.com/p/uploads/2020/06/ea40ecd5.jpg"} />
+                  </div>
+                  <div className="col-lg-4 ">
                      <Product
                         id='12'
                         title="This is our product title"
