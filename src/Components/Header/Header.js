@@ -52,8 +52,9 @@ const Header = () => {
 
             <div className="header_option">
                <span className="header_optionFourTop">
-                  <LocalMallIcon className='bag_icon' />
                   <Link to='/cart'>
+                     <LocalMallIcon className='bag_icon text-light' />
+
                      <div className="cardOption">
                         {basket.length}
                      </div>

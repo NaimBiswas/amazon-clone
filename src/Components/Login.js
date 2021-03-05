@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Fragment } from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 const Login = () => {
+   const [Email, setEmail] = useState()
+   const [Password, setPassword] = useState()
    const SignIn = (e) => {
       e.preventDefault()
    }
@@ -14,18 +17,20 @@ const Login = () => {
 
             <div className="loginpage">
                <h2 className='text-center'>
-                  <img src="http://localhost:3000/static/media/Logo.4a378fe4.svg" alt="" />
+                  <Link to='/'>
+                     <img src="http://localhost:3000/static/media/Logo.4a378fe4.svg" alt="" />
+                  </Link>
                </h2>
 
 
-               <div className="form border col-lg-6">
+               <div className="form border col-lg-5">
                   <h2 className='mt-4 '>Sign In</h2>
                   <div className="form-group row mt-4 ">
                      <div className="form-left col-lg-3 ">
                         <h5 className=''>Email:👉</h5>
                      </div>
                      <div className="form-right col-lg-9">
-                        <input required type="email" className='form-control' />
+                        <input value={Email} onChange={(e) => setEmail(e.target.value)} required type="email" className='form-control' />
                      </div>
                   </div>
 
@@ -34,7 +39,7 @@ const Login = () => {
                         <h5>Password:👉</h5>
                      </div>
                      <div className="form-right col-lg-9">
-                        <input required type="password" className='form-control' />
+                        <input value={Password} onChange={(e) => setPassword(e.target.value)} required type="password" className='form-control' />
                      </div>
                   </div>
 

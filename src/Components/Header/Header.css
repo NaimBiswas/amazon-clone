@@ -89,6 +89,7 @@ span.header_optionFourTop {
     position: relative;
    
 }
+
 span.header_optionFourBottom {
     font-size: 18px;
     font-weight: 600;
@@ -117,6 +118,7 @@ svg.MuiSvgIcon-root.bag_icon {
    transition: 1s;
     
 }
+
 .cardOption:hover{
    background: #f7d9d9;
    color: #131921;
