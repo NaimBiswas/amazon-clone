@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Login.css'
-
+import AmazonDark from './AmazonDark.svg'
 const Login = () => {
    const [Email, setEmail] = useState()
    const [Password, setPassword] = useState()
@@ -18,7 +18,7 @@ const Login = () => {
             <div className="loginpage">
                <h2 className='text-center'>
                   <Link to='/'>
-                     <img src="http://localhost:3000/static/media/Logo.4a378fe4.svg" alt="" />
+                     <img className='mb-4' src={AmazonDark} alt="" />
                   </Link>
                </h2>
 
