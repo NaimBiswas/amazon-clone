@@ -5,9 +5,10 @@ import SearchIcon from '@material-ui/icons/Search';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider'
+import { auth } from '../../firebase';
 
 const Header = () => {
-   const [{ basket },] = useStateValue()
+   const [{ basket, user },] = useStateValue()
    return (
       <div className='header'>
          {/* logo  */}
@@ -25,10 +26,17 @@ const Header = () => {
             {/* right side bar option  */}
             <div className="header_option">
                <span className="header_optionOneTop">
-                  Hello Guest
-                </span>
+                  Hello {' '}
+                  {
+                     user ? user.email :
+                        ' Guest'
+                  }
+               </span>
                <span className="header_optionOneBottom">
-                  <Link to='/log-in' className='text-white' >  Sing In</Link>
+                  {
+                     user ? <span style={{ cursor: 'pointer' }} onClick={() => auth.signOut()} className='text-white' > Sing Out</span> :
+                        <Link to='/log-in' className='text-white' >  Sign In</Link>
+                  }
                </span>
             </div>
 

@@ -1,5 +1,8 @@
+import { Satellite } from "@material-ui/icons";
+
 export const initialState = {
    basket: [],
+   user: null,
 }
 const reducer = (state, action) => {
    switch (action.type) {
@@ -19,6 +22,12 @@ const reducer = (state, action) => {
             ...state,
             basket: newBasket,
 
+         }
+         break;
+      case "SET_USER":
+         return {
+            ...state,
+            user: action.user
          }
          break;
       default:

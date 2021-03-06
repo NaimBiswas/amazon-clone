@@ -1,10 +1,30 @@
+import { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header';
 import MyRoute from './Components/Header/MyRoute';
-import Home from './Components/Home/Home';
+import { auth } from './firebase';
+import { useStateValue } from './StateProvider';
+
 
 function App() {
+   const [{ }, dispatch] = useStateValue();
+   useEffect(() => {
+      auth.onAuthStateChanged(authUser => {
+         console.log(authUser);
+         if (authUser) {
+
+            dispatch({
+               type: "SET_USER",
+               user: authUser
+            })
+         } else {
+            dispatch({
+               type: "SET_USER",
+               user: null
+            })
+         }
+      });
+   }, [])
    return (
       <div className="App">
          {/* <h2>Hello This is Naim Biswas 🐱‍🏍
