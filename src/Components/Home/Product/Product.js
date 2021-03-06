@@ -3,11 +3,17 @@ import { Button, Card, } from 'react-bootstrap'
 import { useStateValue } from '../../../StateProvider'
 import NullRatting from './NullRatting'
 import './Product.css'
-import Rate from './Rate.svg'
+
+
+
+
+
+
 
 const Product = ({ id, Link, ratting, title, price, }) => {
    const [sate, dispatch] = useStateValue()
    const addToBasket = () => {
+
       dispatch({
          type: "ADD_TO_BASKET",
          item: {
@@ -18,10 +24,13 @@ const Product = ({ id, Link, ratting, title, price, }) => {
             image: Link,
          }
       })
-      return <h3>Product Added Success</h3>
+
    }
+
+
    return (
       <>
+
          <Card style={{ margin: '' }} className="" >
             <Card.Img style={{ padding: '20px' }} variant="top" src={Link} className="img-fluid max-width: 100%" />
             <Card.Body>
