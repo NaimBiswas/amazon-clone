@@ -1,6 +1,7 @@
 import React, { lazy } from 'react'
 import { Suspense } from 'react'
 import { Route } from 'react-router-dom'
+import CheckOut from '../CheckOut/CheckOut'
 
 import Home from '../Home/Home'
 import Login from '../Login'
@@ -29,6 +30,16 @@ const MyRoute = () => {
                style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
             >Loading...</h3></div>}>
                <Login></Login>
+            </Suspense>
+         </Route>
+
+         {/* Check Out Page Page Route  */}
+         <Route path='/check-out' >
+            <Header></Header>
+            <Suspense fallback={<div><h3 className='text-info'
+               style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
+            >Loading...</h3></div>}>
+               <CheckOut></CheckOut>
             </Suspense>
          </Route>
       </div>
