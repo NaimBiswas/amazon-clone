@@ -1,0 +1,27 @@
+.personalHeader{
+   font-size: 19px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background: gainsboro;
+    border-radius: 4px!important;
+    color: #444444;
+}
+.ckInput{
+    border: 1px solid #00000047;
+    border-radius: unset;
+    height: 30px;
+}
+label{
+   font-size: 16px;
+    color: #757575eb;
+    letter-spacing: 0.4px;
+}
+.card{
+   border-radius: unset;
+}
+.ClProduct:hover{
+  transform: scale(1)!important;
+    transition-duration: 400ms;
+}
