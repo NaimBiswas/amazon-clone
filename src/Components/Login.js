@@ -1,23 +1,30 @@
 import React, { useState } from 'react'
 import { Fragment } from 'react'
 import { Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import './Login.css'
 import AmazonDark from './AmazonDark.svg'
 import { auth } from '../firebase'
+import { Alert } from 'react-bootstrap'
 const Login = () => {
    const [Email, setEmail] = useState()
    const [Password, setPassword] = useState()
+   const history = useHistory();
    const SignIn = (e) => {
       e.preventDefault()
-
+      auth.signInWithEmailAndPassword(Email, Password)
+         .then(() => (
+            history.push('/')
+         )).catch((error) => alert(error.message))
    }
    const SignUp = (e) => {
       e.preventDefault()
       auth
          .createUserWithEmailAndPassword(Email, Password)
          .then((auth) => {
-            console.log(auth);
+            if (auth) {
+               history.push('/')
+            }
          })
          .catch((error) => console.log(error.messaeg))
    }
