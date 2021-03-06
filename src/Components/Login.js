@@ -4,11 +4,22 @@ import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Login.css'
 import AmazonDark from './AmazonDark.svg'
+import { auth } from '../firebase'
 const Login = () => {
    const [Email, setEmail] = useState()
    const [Password, setPassword] = useState()
    const SignIn = (e) => {
       e.preventDefault()
+
+   }
+   const SignUp = (e) => {
+      e.preventDefault()
+      auth
+         .createUserWithEmailAndPassword(Email, Password)
+         .then((auth) => {
+            console.log(auth);
+         })
+         .catch((error) => console.log(error.messaeg))
    }
    return (
       <Fragment>
@@ -53,7 +64,7 @@ const Login = () => {
                   </div>
 
                   <div className="form-group row ">
-                     <Button variant='outline-warning' className='d-block w-100 mr-3 ml-3 mb-3 createAccount'>Create An Account</Button>
+                     <Button onClick={SignUp} variant='outline-warning' className='d-block w-100 mr-3 ml-3 mb-3 createAccount'>Create An Account</Button>
                   </div>
 
                </div>
