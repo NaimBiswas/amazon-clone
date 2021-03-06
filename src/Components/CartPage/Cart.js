@@ -6,7 +6,7 @@ import SubTotal from './SubTotal'
 import { useStateValue } from '../../StateProvider'
 
 const Cart = () => {
-   const [{ basket }, action] = useStateValue()
+   const [{ basket, user }, action] = useStateValue()
 
    return (
       <>
@@ -21,7 +21,11 @@ const Cart = () => {
                               <img style={{ height: '150px', width: '100%' }} className="img-fluid  " src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
                            </div>
                            <div className="basket">
-                              <h2 className='mt-5 basketHeader'>Your Shopping Basket</h2>
+
+                              <h2 className='mt-5 basketHeader'>
+                                 <small className='h5'>Hello, {user ? user.email : 'Guest'}</small> <br />
+                                 Your Shopping Basket
+                              </h2>
                               <hr />
 
                               {
