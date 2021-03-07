@@ -10,7 +10,7 @@ const CheckOut = () => {
    const [{ basket }] = useStateValue()
    return (
       <Fragment>
-         <div style={{ minHeight: '100vh' }} className="container bg-info mt-5">
+         <div style={{ minHeight: '100vh', background: '#f9f9f9!important' }} className="container  mt-5">
 
 
             <div className="checkOutbg ">
@@ -60,9 +60,9 @@ const CheckOut = () => {
 
                      <div className="card-group mt-4">
                         <div className="card">
-                           <h4 className=' m-2 personalHeader'><Person /> Your Personal Info.</h4>
+                           <h4 className=' m-2 personalHeader'><Person /> Payment Getway</h4>
                            <div className="card-body">
-                              <SubTotal></SubTotal>
+                              <h3>Payment Getway will Come Soon</h3>
                            </div>
                         </div>
 
@@ -71,7 +71,7 @@ const CheckOut = () => {
 
 
                   </div>
-                  <div className="CkRight col-lg-7 mt-3 pr-4">
+                  <div className="CkRight col-lg-8 mt-3 pr-4">
                      <div className="card-group">
                         <div className=" ClProduct">
                            <h4 className=' m-2 personalHeader'><ShoppingBasket /> Your Basket</h4>
