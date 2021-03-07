@@ -47,7 +47,7 @@ const Cart = () => {
                      </div>
                      <div className="col-lg-5">
                         <div className=" checkoutRight pt-5" >
-                           <div className="checkOut-add ">
+                           <div style={{ minHeight: '33vh' }} className="checkOut-add ">
                               <img className="img-fluid w-100" src="https://www.innoverto.com/content/uploads/2013/02/innoverto-training-banner.jpg" alt="" />
                            </div>
                            <SubTotal></SubTotal>
