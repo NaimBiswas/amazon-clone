@@ -2,6 +2,7 @@ import React, { lazy } from 'react'
 import { Suspense } from 'react'
 import { Route } from 'react-router-dom'
 import CheckOut from '../CheckOut/CheckOut'
+import Footer from '../Footer/Footer'
 
 import Home from '../Home/Home'
 import Login from '../Login'
@@ -14,6 +15,7 @@ const MyRoute = () => {
          <Route exact path="/" >
             <Header></Header>
             <Home></Home>
+            <Footer />
          </Route>
          <Route path='/cart' >
             <Header></Header>
@@ -22,6 +24,7 @@ const MyRoute = () => {
             >Loading...</h3></div>}>
                <Cart></Cart>
             </Suspense>
+            <Footer />
          </Route>
 
          {/* Login Page Route  */}
@@ -41,6 +44,7 @@ const MyRoute = () => {
             >Loading...</h3></div>}>
                <CheckOut></CheckOut>
             </Suspense>
+            <Footer />
          </Route>
       </div>
    )
