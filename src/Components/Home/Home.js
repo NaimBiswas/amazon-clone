@@ -5,7 +5,6 @@ import { Button, Card } from 'react-bootstrap'
 import Product from './Product/Product'
 import Slider from './Slider/Slider'
 import './Home.css'
-
 const Home = () => {
 
    return (
@@ -108,6 +107,228 @@ const Home = () => {
                         Link={"https://www.reviewgeek.com/p/uploads/2020/06/ea40ecd5.jpg"} />
                   </div>
                </div>
+
+               <h2 className='mt-5 text-danger text-uppercase'>Graphics Cards</h2>
+               <div className="home-row-tow row mt-5 mb-2">
+
+                  <div className="col-lg-3">
+                     <Product
+                        id='5254'
+                        title="MSI GeForce RTX 3090 Gaming X Trio 24GB Graphics Card"
+                        price={1500}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/rtx-3090-gaming-x-trio/rtx-3090-gaming-x-trio-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='505'
+                        title="ASUS ROG Strix NVIDIA GeForce RTX 3090 OC Edition 24GB Gaming Graphics Card"
+                        price={1200}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/asus/rtx-3090-oc/rtx-3090-oc-001-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='4545'
+                        title="MSI GeForce RTX 3090 SUPRIM X 24GB Graphics Card"
+                        price={1300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/rtx-3090-suprim-x/rtx-3090-suprim-x-1-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='14523'
+                        title=" Gigabyte Aorus GeForce RTX 3090 Master 24GB GDDR6X Graphics Card"
+                        price={950}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/aorus-rtx-3090-master/aorus-rtx-3090-master-228x228.jpg"} />
+                  </div>
+               </div>
+
+               <div className="home-row-tow row mt-5 mb-2">
+
+                  <div className="col-lg-3">
+                     <Product
+                        id='5254d'
+                        title="Gigabyte AORUS GeForce RTX 3090 XTREME 24GB GDDR6X Graphics Card"
+                        price={1299}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/rtx-3090-xtreme/rtx-3090-xtreme-1-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='50235'
+                        title="ZOTAC GeForce RTX 3090 Trinity 24GB GDDR6X Gaming Graphics Card"
+                        price={1200}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/asus/rtx-3090/rtx-3090-1-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='4545'
+                        title="XFX Speedster MERC 319 RX6900 XT AMD RDNA 2 16GB Gaming Graphics Card"
+                        price={1500}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/xfx/merc-319-rx6900-xt/merc-319-rx6900-xt-01-228x228.jpeg"} />
+                  </div>
+                  <div className="col-lg-3">
+                     <Product
+                        id='14523'
+                        title=" MSI GeForce RTX 3080 SUPRIM X 10GB Graphics Card"
+                        price={1400}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/rtx-3080-suprim-x-10gb/rtx-3080-suprim-x-10gb-228x228.jpg"} />
+                  </div>
+               </div>
+
+               <h2 className='mt-5 text-danger text-uppercase'>Computer Cassing</h2>
+
+               <div className="home-row-three row mt-5">
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='1232'
+                        title="Antec TORQUE Black + Red Aluminum ATX Mid Tower  "
+                        price={559}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/torque/torque-1-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec TORQUE Black + White ATX Mid Tower Gaming Casing"
+                        price={270}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/casing/antec/torque-black-white/torque-black-white-3-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec Striker ITX open Gaming Casing"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/striker/gallery-striker-03-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec Striker ITX open Gaming Casing"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/striker/gallery-striker-03-228x228.jpg"} />
+                  </div>
+               </div>
+
+               <div className="home-row-three row mt-5">
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec Striker ITX open Gaming Casing"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/striker/gallery-striker-03-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec TORQUE Black + White ATX Mid Tower Gaming Casing"
+                        price={270}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/casing/antec/torque-black-white/torque-black-white-3-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Antec Striker ITX open Gaming Casing"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/striker/gallery-striker-03-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='1232'
+                        title="Antec TORQUE Black + Red Aluminum ATX Mid Tower "
+                        price={559}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/component/casing/antec/torque/torque-1-228x228.jpg"} />
+                  </div>
+
+               </div>
+
+
+
+               <h2 className='mt-5 text-danger text-uppercase'>Computer Processor</h2>
+
+               <div className="home-row-three row mt-5">
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='123qw2'
+                        title="AMD Ryzen 9 5900X Processor  "
+                        price={600}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5900x/ryzen-9-5900x-001-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="AMD Ryzen 7 5800X Processor"
+                        price={270}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/Intel/i9-10900ka/i9-10900ka-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Intel 10th Gen Core i9-10900 Processor"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-7-5800x/ryzen-7-5800x-01-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="AMD Ryzen 9 3900X Processor"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/Intel/i9-10900/i9-10900-228x228.jpg"} />
+                  </div>
+               </div>
+
+               <div className="home-row-three row mt-5">
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Intel 10th Gen Core i9-10850K Processor"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-3950x/AMD-Ryzen-9-header-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="Intel Core i9-9900K 9th generation Processor"
+                        price={270}
+                        ratting={4}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/Intel/10900k/10900k-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='12'
+                        title="AMD Ryzen 5 5600X Processor"
+                        price={300}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/Intel/9900k/intel-core-i9-9900k-228x228.jpg"} />
+                  </div>
+                  <div className="col-lg-3 ">
+                     <Product
+                        id='1232'
+                        title="AMD Ryzen 5 5600X Processor"
+                        price={559}
+                        ratting={5}
+                        Link={"https://www.startech.com.bd/image/cache/catalog/processor/amd/5600x/5600x-001-228x228.jpg"} />
+                  </div>
+
+               </div>
+
             </div>
          </section>
       </Fragment>

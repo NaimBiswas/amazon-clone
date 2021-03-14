@@ -35,7 +35,7 @@ const Product = ({ id, Link, ratting, title, price, }) => {
             <Card.Img style={{ padding: '20px' }} variant="top" src={Link} className="img-fluid max-width: 100%" />
             <Card.Body>
                <Card.Title>{title}</Card.Title>
-               <p><span className="h5 price">${price}</span>
+               <p><span className="h5 price">$ {price}</span>
                   <span className='ml-1'>
                      {
                         Array(ratting).fill().map((_, i) => (
